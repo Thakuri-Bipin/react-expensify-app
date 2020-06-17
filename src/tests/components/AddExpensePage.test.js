@@ -1,3 +1,8 @@
+const add = (a, b) => a + b;
+
+test('should add two numbers', () => {
+    expect(add(2, 3)).toBe(5);
+});
 // import React from 'react';
 // import { shallow } from 'enzyme';
 // import { AddExpensePage } from '../../components/AddExpensePage';
